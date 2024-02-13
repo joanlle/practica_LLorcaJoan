@@ -2,9 +2,9 @@ public class PrimaEmpleat {
 	private String nom;
 	private String directiu;
 	private int antiguitat;
-
+	
 	public static void main(String[] args) {
-
+int hola;
 		PrimaEmpleat e = new PrimaEmpleat("Elvira", "S", 11);
 		int p = 0;
 		if (e.antiguitat >= 0 && e.antiguitat < 1000) {
